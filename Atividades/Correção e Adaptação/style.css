@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: gold;
+}
+
+.convite{
+    width: 450px;
+    padding: 40px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #111;
+    box-shadow: 0 0 20px gold;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid gold;
+    padding-bottom: 8px;
+}
